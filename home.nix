@@ -9,28 +9,29 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = with pkgs; [
-      chromium
-      git
-      firefox
-      neofetch
-      alacritty
-      kitty
-      vim
-      neovim
-      flameshot
-      waybar
-      rofi-wayland
-      dunst
-      tldr
-      starship
-      hyprpaper
-      dolphin
-      pavucontrol
-      syncthing
-      zsh
-      lsd
-      wofi
-      xdg-desktop-portal-hyprland
+       chromium
+       git
+       firefox
+       neofetch
+       alacritty
+       kitty
+       vim
+       neovim
+       flameshot
+       waybar
+       rofi-wayland
+       dunst
+       tldr
+       starship
+       hyprpaper
+       dolphin
+       pavucontrol
+       syncthing
+       zsh
+       lsd
+       wofi
+       xdg-desktop-portal-hyprland
+       flatpak
       
  ];
  # Configure cursor theme
