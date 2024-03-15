@@ -32,6 +32,7 @@
        wofi
        xdg-desktop-portal-hyprland
        flatpak
+       metasploit
       
  ];
  # Configure cursor theme
