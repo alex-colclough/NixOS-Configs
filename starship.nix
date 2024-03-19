@@ -1,6 +1,5 @@
-  programs.starship = {
-      enable = true;
-      settings = {
+  programs.starship.enable = true;
+      programs.starship.settings = {
         # "$schema" = "https://starship.rs/config-schema.json";
         add_newline = true;
         command_timeout = 500;
@@ -180,7 +179,7 @@
           ];
           detect_folders = [];
         };
-        directory = {
+        progams.starship.directory = {
           disabled = false;
           fish_style_pwd_dir_length = 0;
           format = "[$path]($style)[$read_only]($read_only_style) ";
