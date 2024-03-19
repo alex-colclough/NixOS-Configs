@@ -33,6 +33,7 @@
        xdg-desktop-portal-hyprland
        flatpak
        metasploit
+       wireplumber
       
  ];
  # Configure cursor theme
