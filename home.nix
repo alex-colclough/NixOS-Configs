@@ -2,9 +2,9 @@
 
 {
 
- # imports = [
- #   ./sh.nix
- # ];
+imports = [
+    ./starship.nix
+];
 
   home.username = "alex";
   home.homeDirectory = "/home/alex";
